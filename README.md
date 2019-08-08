@@ -1,6 +1,12 @@
-Run the application: python main.py
+1. Change image path  in main.py
 
-*Note: For first time running the application, create a folder named "output".
+2. Run the application: python main.py. It will create a folder named "output_yourfilename".
+
+
+
+In this fork project, I add code to distinguish image and text region only in the "process_par".
+
+
 
 The application is a simple document layout analysis using Python-OpenCV. Using three images, the program needs to do the following:
 
