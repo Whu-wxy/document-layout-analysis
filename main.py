@@ -175,7 +175,7 @@ def processImg(file_path):
 	output_par = process_par(th, output_par, distinguish_img=True, blur_count=0) 
 	cv2.imwrite(par_path + "/output_par.jpg", output_par)
 	output_margin = process_margin(th,output_par)
-	cv2.imwrite(margin_path + "/output_margin.jpg", output_par)
+	cv2.imwrite(margin_path + "/output_margin.jpg", output_margin)
 
 	end_time = timeit.default_timer()
 	print('Total time: ', end_time-start_time)
